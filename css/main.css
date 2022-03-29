@@ -16,6 +16,10 @@ body {
 
 /*BASIC STYLES*/
 
+.negative-image {
+  filter: invert();
+}
+
 .black-text {
   color: #000000;
 }
@@ -39,6 +43,10 @@ body {
 .text-block {
   font-size: 24px;
   text-align: left;
+}
+
+.text-block-big {
+  font-size: 32px;
 }
 
 .scroll-down-link {
