@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'JetBrains Mono', 'Arial', sans-serif;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+}
+
+/*BASIC STYLES*/
+
+.black-text {
+  color: #000000;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 48px;
+}
+
+.big-title {
+  font-size: 64px;
+}
+
+.text-block {
+  font-size: 24px;
+  text-align: left;
+}
+
+.scroll-down-link {
+  font-size: 20px;
+}
+
+.big-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.fullscreen-block {
+  height: 100vh;
+  min-height: 600px;
+}
+
+.big-block-wrapper {
+  width: 100%;
+  padding: 3%;
+  max-width: 1000px;
+}
+
+/*HEADER*/
+
+.big-block__header {
+  background: #000000;
+}
+
+.header__wrapper {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.menu__link {
+  font-weight: 800;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-title {
+  color: #fff;
+  text-align: center;
+}
+
+
+
+/*ABOUT ME*/
+
+.big-block__me {
+}
+
+.me__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.content-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 50%;
+  padding: 3%;
+}
+
+.content-block__white {
+  background: #fff;
+  border: 3px solid black;
+}
+
+.content-block__black {
+  background: #000;
+  margin-top: 3%;
+}
+
+/* MY SKILLS */
+
+.big-block__skills {
+  background: #000;
+}
+
+.skills__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 12%;
+}
+
+.line {
+  margin-top: 50px;
+}
+
+.line__left {
+  align-self: flex-start;
+  margin-left: 7%;
+}
+
+.line__right {
+  align-self: flex-end;
+  margin-right: 7%;
+}
+
+
+
